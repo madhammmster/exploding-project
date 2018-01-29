@@ -22,14 +22,6 @@ const LoginForm = props => {
                 placeholder='Username'
             />
 
-            <Field
-                name='password'
-                component={InputField}
-                type='password'
-                label='Password'
-                placeholder='Password'
-            />
-
             <Form.Field
                 control={Button}
                 primary

@@ -5,13 +5,13 @@ require("babel-core/register");
 require("babel-polyfill");
 
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-    template: './src/index.html',
+    template: './client/index.html',
     filename: 'index.html',
     inject: 'body'
 })
 
 module.exports = {
-    entry: ['babel-polyfill', './src/index.js'],
+    entry: ['babel-polyfill', './client/index.js'],
     output: {
         path: path.resolve('dist'),
         filename: 'index_bundle.js'

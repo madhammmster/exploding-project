@@ -34,10 +34,6 @@ class Login extends React.Component {
                         <LoginForm
                             handleSubmit={this.onLoginFormSubmit}
                         />
-                        <Divider horizontal>Or</Divider>
-                        <RegisterForm
-                            handleSubmit={this.onRegisterFormSubmit}
-                        />
                     </Grid.Column>
                 </Grid>
 
